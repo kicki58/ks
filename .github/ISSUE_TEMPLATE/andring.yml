@@ -61,7 +61,7 @@ body:
     validations:
       required: false
 	  
- - type: input
+  - type: input
     id: kommentar
     attributes:
       label: "Kommentar (skos:scopeNote):"
@@ -75,7 +75,7 @@ body:
     validations:
       required: false
 	  
- - type: input
+  - type: input
     id: eg_ett
     attributes:
       label: "Engelsk etikett (skos:prefLabel (en)):"
@@ -102,12 +102,10 @@ body:
       label: "Besläktad term i det interna vokabuläret (skos:related):"
     validations:
       required: false
-	  
+  
   - type: textarea
     id: ref
     attributes:
       label: "Övrig referens, t.ex. litteratur (dct:source):"
     validations:
       required: false
-	  
-	  
