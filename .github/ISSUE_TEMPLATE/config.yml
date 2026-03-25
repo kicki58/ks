@@ -1,11 +1,16 @@
 blank_issues_enabled: true
 
 issue_templates:
-  - name: "🐛 Bug Report"
+  - name: "🐛 Ändring"
+    description: "Ändring av term"
+    labels: ["andring"]
+    body: "./ISSUE_TEMPLATE/andring.yml"
+
+  - name: "✨ Ny term"
     description: "Rapportera ett bug i systemet"
-    title: "[Bug]: "
-    labels: ["bug"]
-    body: "./ISSUE_TEMPLATE/bug_report.yml"
+    title: "[Ny]: "
+    labels: ["ny"]
+    body: "./ISSUE_TEMPLATE/ny_term.yml"
 
   - name: "✨ Feature Request"
     description: "Föreslå en ny funktion eller förbättring"
