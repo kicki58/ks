@@ -54,13 +54,14 @@ body:
     validations:
       required: false
 	  
+	  
   - type: textarea
     id: def
     attributes:
       label: "Definition (skos:definition):"
     validations:
       required: false
-	  
+
   - type: input
     id: kommentar
     attributes:
@@ -74,7 +75,7 @@ body:
       label: "Alternativ etikett (skos:altLabel (sv):"
     validations:
       required: false
-	  
+
   - type: input
     id: eg_ett
     attributes:
@@ -88,7 +89,7 @@ body:
       label: "Exakt matchning externt vokabulär (skos:exactMatch):"
     validations:
       required: false
-	  
+
   - type: input
     id: nara
     attributes:
