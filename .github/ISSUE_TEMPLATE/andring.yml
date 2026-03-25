@@ -4,7 +4,7 @@ title: "[Ändring av befintlig term]: "
 labels: ["Ändring av befintlig"]
 
 body:
-  
+
 - type: dropdown
   id: kodlist
   attributes:
@@ -14,7 +14,7 @@ body:
       - naturligt objekt
       - stratigrafisk enhet
       - undersökningsenhet 
- multiple: false
+   multiple: false
 
   - type: markdown
     attributes:
