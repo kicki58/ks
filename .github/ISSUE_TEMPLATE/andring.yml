@@ -4,17 +4,16 @@ title: "[Ändring av befintlig term]: "
 labels: ["Ändring av befintlig"]
 
 body:
-
-- type: dropdown
-  id: kodlist
-  attributes:
-    label: Gäller kodlista:
-    options:
-      - arkeologiskt objekt
-      - naturligt objekt
-      - stratigrafisk enhet
-      - undersökningsenhet 
-   multiple: false
+  - type: dropdown
+    id: kodlist
+    attributes:
+      label: "Gäller kodlista:"
+      options:
+        - arkeologiskt objekt
+        - naturligt objekt
+        - stratigrafisk enhet
+        - undersökningsenhet
+      multiple: false
 
   - type: markdown
     attributes:
@@ -49,8 +48,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ####Föreslagna ändringar av term  
-        #####(Ta endast med de attribut där ändring föreslås)*
+        #### Föreslagna ändringar av term  
+        *(Ta endast med de attribut där ändring föreslås)*
 
   - type: input
     id: namn
@@ -65,8 +64,7 @@ body:
       label: "Bredare term (skos:broader):"
     validations:
       required: false
-	  
-	  
+
   - type: textarea
     id: def
     attributes:
@@ -84,7 +82,7 @@ body:
   - type: input
     id: alt_ett
     attributes:
-      label: "Alternativ etikett (skos:altLabel (sv):"
+      label: "Alternativ etikett (skos:altLabel (sv)):"
     validations:
       required: false
 
@@ -115,7 +113,7 @@ body:
       label: "Besläktad term i det interna vokabuläret (skos:related):"
     validations:
       required: false
-  
+
   - type: textarea
     id: ref
     attributes:
