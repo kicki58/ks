@@ -1,53 +1,55 @@
-name: 🐛 Ändring av term
-description: Ädring av befintlig term
+name: "🐛 Ändring av term"
+description: "Ändring av befintlig term"
 title: "[Ändring av befintlig term]: "
 labels: ["Ändring av befintlig"]
 
 body:
-	- type: markdown
-	  attributes:
-	  value: " - Obs. Glöm ej att skriva namnet på termen på skapad Issue.---"
+  - type: markdown
+    attributes:
+      value: |
+        **Obs:** Glöm ej att skriva namnet på termen i den skapade Issuen.
+        ---
 
   - type: textarea
     id: motivering
     attributes:
-      label: Motivering
-	  description: Varför behövs ändringen?
-	  validations:
-		required: true
-  
+      label: "Motivering"
+      description: "Varför behövs ändringen?"
+    validations:
+      required: true
+
   - type: textarea
     id: behov
     attributes:
-      label: Behov
-	  description: Hur stort är behovet för termen?
-	  validations:
-		required: true
-		
+      label: "Behov"
+      description: "Hur stort är behovet för termen?"
+    validations:
+      required: true
+
   - type: textarea
-    id: behov
+    id: potentiella_problem
     attributes:
-      label: Potentiella problem
-	  description: Kan ändringen potentiellt orsaka något problem? Finns det olika åsikter om användningen av termen?
-	  validations:
-		required: true
+      label: "Potentiella problem"
+      description: "Kan ändringen potentiellt orsaka något problem? Finns det olika åsikter om användningen av termen?"
+    validations:
+      required: true
 
-	- type: markdown
-	  attributes:
-	  value: Föreslagna ändringar av ter (Ta endast med de attribut där ändring föreslås)
-	  
-
+  - type: markdown
+    attributes:
+      value: |
+        ### Föreslagna ändringar av term  
+        *(Ta endast med de attribut där ändring föreslås)*
 
   - type: input
-    id: reproduce
+    id: namn
     attributes:
-      label: Namn (skos:prefLabel (sv)):
+      label: "Namn (skos:prefLabel (sv))"
     validations:
       required: false
-	  
- - type: input
-    id: reproduce
+
+  - type: input
+    id: bredare_term
     attributes:
-      label: Bredare term (skos:broader):
+      label: "Bredare term (skos:broader)"
     validations:
       required: false
