@@ -5,7 +5,7 @@ issue_templates:
     description: "Rapportera ett bug i systemet"
     title: "[Bug]: "
     labels: ["bug"]
-    body: "./ISSUE_TEMPLATE/bug_report.md"
+    body: "./ISSUE_TEMPLATE/bug_report.yml"
 
   - name: "✨ Feature Request"
     description: "Föreslå en ny funktion eller förbättring"
