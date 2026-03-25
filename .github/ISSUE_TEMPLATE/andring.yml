@@ -14,7 +14,9 @@ body:
         - stratigrafisk enhet
         - undersökningsenhet
       multiple: false
-
+    validations:
+      required: true
+      
   - type: markdown
     attributes:
       value: |
