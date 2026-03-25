@@ -54,7 +54,6 @@ body:
     validations:
       required: false
 
-	  
   - type: textarea
     id: def
     attributes:
