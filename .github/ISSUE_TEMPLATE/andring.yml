@@ -4,6 +4,18 @@ title: "[Ändring av befintlig term]: "
 labels: ["Ändring av befintlig"]
 
 body:
+  
+- type: dropdown
+  id: kodlist
+  attributes:
+    label: Gäller kodlista:
+    options:
+      - arkeologiskt objekt
+      - naturligt objekt
+      - stratigrafisk enhet
+      - undersökningsenhet 
+ multiple: false
+
   - type: markdown
     attributes:
       value: |
@@ -53,7 +65,8 @@ body:
       label: "Bredare term (skos:broader):"
     validations:
       required: false
-
+	  
+	  
   - type: textarea
     id: def
     attributes:
