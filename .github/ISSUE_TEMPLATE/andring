@@ -1,0 +1,53 @@
+name: 🐛 Ändring av term
+description: Ädring av befintlig term
+title: "[Ändring av befintlig term]: "
+labels: ["Ändring av befintlig"]
+
+body:
+	- type: markdown
+	  attributes:
+	  value: " - Obs. Glöm ej att skriva namnet på termen på skapad Issue.---"
+
+  - type: textarea
+    id: motivering
+    attributes:
+      label: Motivering
+	  description: Varför behövs ändringen?
+	  validations:
+		required: true
+  
+  - type: textarea
+    id: behov
+    attributes:
+      label: Behov
+	  description: Hur stort är behovet för termen?
+	  validations:
+		required: true
+		
+  - type: textarea
+    id: behov
+    attributes:
+      label: Potentiella problem
+	  description: Kan ändringen potentiellt orsaka något problem? Finns det olika åsikter om användningen av termen?
+	  validations:
+		required: true
+
+	- type: markdown
+	  attributes:
+	  value: Föreslagna ändringar av ter (Ta endast med de attribut där ändring föreslås)
+	  
+
+
+  - type: input
+    id: reproduce
+    attributes:
+      label: Namn (skos:prefLabel (sv)):
+    validations:
+      required: false
+	  
+ - type: input
+    id: reproduce
+    attributes:
+      label: Bredare term (skos:broader):
+    validations:
+      required: false
