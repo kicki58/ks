@@ -35,9 +35,9 @@ body:
     id: behov
     attributes:
       label: "Behov"
-      description: "Hur stort är behovet för termen?"
+      description: "Hur stort är behovet av termen?"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: potentiella_problem
@@ -45,13 +45,13 @@ body:
       label: "Potentiella problem"
       description: "Kan ändringen potentiellt orsaka något problem? Finns det olika åsikter om användningen av termen?"
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
       value: |
         #### Föreslagna ändringar av term  
-        *(Ta endast med de attribut där ändring föreslås)*
+        *(Fyll endast med de attribut där ändring föreslås)*
 
   - type: input
     id: namn
