@@ -3,6 +3,19 @@ description: Rapportera fel i kodlistorn
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: dropdown
+    id: kodlist
+    attributes:
+      label: "Gäller kodlista:"
+      options:
+        - arkeologiskt objekt
+        - naturligt objekt
+        - stratigrafisk enhet
+        - undersökningsenhet
+      multiple: false
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
